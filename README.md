@@ -94,6 +94,25 @@ php artisan academy:remind
 
 Set mail driver in `.env` (for local testing, `MAIL_MAILER=log` is enough).
 
+## Running Tests
+
+Run the full test suite:
+
+```bash
+composer test
+```
+
+or:
+
+```bash
+php artisan test
+```
+
+Notes:
+
+- Tests run with SQLite in-memory (`phpunit.xml`) for speed and isolation.
+- Ensure PHP dependencies are installed first (`composer install`).
+
 ## .env Documentation (Project-Oriented)
 
 These variables map directly to the challenge requirements:
