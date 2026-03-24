@@ -2,6 +2,12 @@
 
 Laravel 13 + Vue 3 + Inertia application to manage internal workshops and employee registrations.
 
+## Introduzione / Introduction
+
+IT: **Internal Academy** e una web app in **Laravel + Vue + Inertia** per gestire workshop aziendali con ruoli distinti (Admin/Employee), CRUD completo, iscrizioni/cancellazioni, lista d'attesa FIFO e blocco delle sovrapposizioni orarie. Include anche dashboard statistiche admin con aggiornamento in tempo reale via polling, comando `academy:remind` per i promemoria email e una suite di test minima sui flussi principali.
+
+EN: **Internal Academy** is a **Laravel + Vue + Inertia** web app to manage company workshops with role-based access (Admin/Employee), full CRUD, registrations/cancellations, FIFO waiting list handling, and overlapping-time prevention. It also includes an admin statistics dashboard with near real-time polling updates, an `academy:remind` command for email reminders, and a minimal test suite covering core flows.
+
 ## Features
 
 - Role-based auth with two roles:
